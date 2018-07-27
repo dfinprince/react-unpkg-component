@@ -1,6 +1,6 @@
 {
   "name": "react-unpkg-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Another try for a unpkg react package",
   "main": "dist/index.js",
   "scripts": {
