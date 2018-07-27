@@ -1,0 +1,47 @@
+{
+  "name": "react-unpkg-component",
+  "version": "0.0.1",
+  "description": "Another try for a unpkg react package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=development webpack"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfscoprince/react-unpkg-component.git"
+  },
+  "keywords": [
+    "react",
+    "unpkg"
+  ],
+  "author": "Prince Cheruvathur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfscoprince/react-unpkg-component/issues"
+  },
+  "homepage": "https://github.com/dfscoprince/react-unpkg-component#readme",
+  "peerDependencies": {
+    "react": ">=15.x",
+    "react-dom": ">=15.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-app": "^3.1.2",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
+  }
+}
